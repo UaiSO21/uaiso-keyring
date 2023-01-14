@@ -19,8 +19,6 @@ fi
 
 package() {
     
-    ${pkgdir}
-    
     install -dm755 ${pkgdir}/usr/share/pacman/keyrings/
 	install -m0644 ${srcdir}/${pkgname}/uaiso21{.gpg,-trusted,-revoked} ${pkgdir}/usr/share/pacman/keyrings/
 }
