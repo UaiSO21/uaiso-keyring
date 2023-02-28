@@ -1,1 +1,2 @@
-# uaiso-keyring
+# Pacotes com as Chaves de Assinatura dos PACOTES
+
